@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <title>Trustprimgen</title>
+</head>
+
+<body class="text-gray-800 antialiased">
+
+
+  <!-- Navbar  -->
+  <nav class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg">
+    <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+      <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+        <a class="text-xl font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white"
+          href="#">Trustprimgen</a><button
+          class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+          type="button" onclick="toggleNavbar('example-collapse-navbar')">
+          <i class="text-white fas fa-bars"></i>
+        </button>
+      </div>
+      <div class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden"
+        id="example-collapse-navbar">
+        <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+          <li class="flex items-center">
+            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="#contactUs">
+              <span>Contact Us</span>
+            </a>
+          </li>
+          <li class="flex items-center">
+            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="join.html"><span>Join Us</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <div class="relative pt-16 pb-32 flex content-center items-center justify-center" style="min-height: 100vh;">
+      <div class="absolute top-0 w-full h-full bg-center bg-cover"
+        style='background-image: url("./img/pexels-artem-beliaikin-1153976\ \(2\).jpg");'>
+        <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-black"></span>
+      </div>
+      <div class="container relative mx-auto" data-aos="fade-in">
+        <div class="items-center flex flex-wrap">
+          <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+            <div class="pr-12">
+              <h1 class="text-white font-semibold text-5xl">
+                We are Trustprimgen
+              </h1>
+              <p class="mt-4 text-lg text-gray-300">
+                We inspire breakthrough in the way Malawi treats a girl child,promote the social
+                welfare, public health, education and Agriculture.
+              </p>
+              <a href="#contactUs"
+                class="uppercase bg-transparent hover:bg-red-500 text-red-500 font-semibold hover:text-white py-2 px-4 border border-red-500 hover:border-transparent rounded inline-block mt-5 cursor-pointer">Contact
+                Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
+        style="height: 70px; transform: translateZ(0px);">
+        <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+          version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+        </svg>
+      </div>
+    </div>
+
+    <!-- Our Mission Statement -->
+    <section class="pt-20 pb-10">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap justify-center text-center mb-24">
+          <div class="w-full lg:w-6/12 px-4" data-aos="slide-down">
+            <h2 class="text-4xl font-semibold">Our Actions</h2>
+          </div>
+        </div>
+        <!-- First Row -->
+        <div class="flex flex-wrap mt-5" data-aos="fade-up">
+          <div class="w-full md:w-6/12 lg:w-4/12 lg:mb-0 mb-12 px-4">
+            <div class="px-6">
+              <div class="pt-6 text-center">
+                <span class="text-red-500">
+                  <i class="fas fa-female fa-7x"></i>
+                </span>
+                <h5 class="text-xl mt-4 font-bold">Gender Equility</h5>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-6/12 lg:w-4/12 lg:mb-0 mb-12 px-4">
+            <div class="px-6">
+              <div class="pt-6 text-center">
+                <span class="text-red-500">
+                  <i class="fas fa-book-reader fa-7x"></i>
+                </span>
+                <h5 class="text-xl mt-4 font-bold">Education For All</h5>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-6/12 lg:w-4/12 lg:mb-0 mb-12 px-4">
+            <div class="px-6">
+              <div class="pt-6 text-center">
+                <span class="text-red-500">
+                  <i class="fas fa-industry fa-7x"></i>
+                </span>
+                <h5 class="text-xl mt-4 font-bold">Promote Agriculture</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Second Row -->
+        <br><br>
+        <div class="flex flex-wrap mt-4" data-aos="fade-up">
+          <div class="w-full md:w-6/12 lg:w-4/12 lg:mb-0 mb-12 px-4">
+            <div class="px-6">
+              <div class="pt-6 text-center">
+                <span class="text-red-500">
+                  <i class="fas fa-baby fa-7x"></i>
+                </span>
+                <h5 class="text-xl mt-4 font-bold">Child Care</h5>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-6/12 lg:w-4/12 lg:mb-0 mb-12 px-4">
+            <div class="px-6">
+              <div class="pt-6 text-center">
+                <span class="text-red-500">
+                  <i class="fas fa-child fa-7x"></i>
+                </span>
+                <h5 class="text-xl mt-4 font-bold">Street Kids</h5>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-6/12 lg:w-4/12 lg:mb-0 mb-12 px-4">
+            <div class="px-6">
+              <div class="pt-6 text-center">
+                <span class="text-red-500">
+                  <i class="fas fa-hand-holding-heart fa-7x"></i>
+                </span>
+                <h5 class="text-xl mt-4 font-bold">Povert</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Child Marriage Section -->
+    <section class="relative py-20 bg-gray-100">
+      <div class="container mx-auto px-4">
+        <div class="items-center flex flex-wrap">
+          <div class="w-full md:w-4/12 ml-auto mr-auto px-4" data-aos="flip-right">
+            <img alt="..." class="max-w-full rounded-lg shadow-lg" src="./img/girl.jpg" />
+          </div>
+
+          <div class="w-full md:w-5/12 ml-auto mr-auto px-1" data-aos="fade-left">
+            <div class="md:pr-12">
+              <h3 class="text-3xl font-semibold">Ending Child Marriage</h3>
+              <p class="mt-1 text-lg leading-relaxed text-gray-600">
+                Ten percent of the girls on Malawi get married before their 15th birthday and
+                nearly half of all girls in Malawi are married before finishing school.
+                That's why here at Trustprimgen we work harder to end child marriage.
+              </p>
+            </div>
+            <div class="mt-5">
+              <a href="join.html" class="uppercase bg-red-500 text-white px-6 rounded py-2 hover:bg-red-600">join us</a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="relative py-20 px-10">
+      <div class="mt-8 grid lg:grid-cols-3 gap-10 container" data-aos="slide-up">
+        Cards go here  -->
+
+    <!-- <div class=" bg-white rounded overflow-hidden shadow-md relative hover:shadow-lg">
+          <img src="./assets/img/stew.jpg" alt="stew" class="w-full h-32 sm:h-48 object-cover" />
+          <div class="m-4">
+            <span class="font-bold">5 Bean Chilli Stew</span>
+            <span class="block text-gray-500 text-sm">Recipe by Mario</span>
+          </div>
+        </div>
+
+        <div class=" bg-white rounded overflow-hidden shadow-md relative hover:shadow-lg">
+          <img src="./assets/img/noodles.jpg" alt="noodles" class="w-full h-32 sm:h-48 object-cover" />
+          <div class="m-4">
+            <span class="font-bold">Veg Noodles</span>
+            <span class="block text-gray-500 text-sm">Recipe by Mario</span>
+          </div>
+        </div>
+
+        <div class=" bg-white rounded overflow-hidden shadow-md relative hover:shadow-lg">
+          <img src="./assets/img/curry.jpg" alt="curry" class="w-full h-32 sm:h-48 object-cover" />
+          <div class="m-4">
+            <span class="font-bold">Tofu Curry</span>
+            <span class="block text-gray-500 text-sm">Recipe by Mario</span>
+          </div>
+
+        </div>
+      </div> -->
+    <!-- </section> --> -->
+
+    <!-- Staff Members -->
+    <section class="pt-20 pb-48">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap justify-center text-center mb-24">
+          <div class="w-full lg:w-6/12 px-4" data-aos="slide-down">
+            <h2 class="text-4xl font-semibold">Our Management Team</h2>
+          </div>
+        </div>
+        <div class="flex flex-wrap" data-aos="slide-up">
+          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+            <div class="px-6">
+
+              <img alt="..." src="./img/sfffffffd.jpg" class="shadow-lg rounded-full max-w-full mx-auto"
+                style="max-width: 120px;" data-aos="flip-right" />
+              <div class="pt-6 text-center">
+                <h5 class="text-xl font-bold">Anganile Lwesha</h5>
+                <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                  Founder/Manager
+                </p>
+
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+            <div class="px-6">
+              <img alt="..." src="./img/plili.jpg" class="shadow-lg rounded-full max-w-full mx-auto"
+                style="max-width: 120px;" data-aos="flip-right" />
+              <div class="pt-6 text-center">
+                <h5 class="text-xl font-bold">Philipina Chima</h5>
+                <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                  General Secretary
+                </p>
+
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+            <div class="px-6">
+              <img alt="..." src="./img/we.jpg" class="shadow-lg rounded-full max-w-full mx-auto"
+                style="max-width: 120px;" data-aos="flip-right" />
+              <div class="pt-6 text-center">
+                <h5 class="text-xl font-bold">Kondwani Chirwa</h5>
+                <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                  Chairman
+                </p>
+
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+            <div class="px-6">
+              <img alt="..." src="./img/qw.jpg" class="shadow-lg rounded-full max-w-full mx-auto"
+                style="max-width: 120px;" data-aos="flip-right" />
+              <div class="pt-6 text-center">
+                <h5 class="text-xl font-bold">Gerald Chirambo</h5>
+                <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                  Vice Chairman
+                </p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pb-20 relative block bg-gray-900">
+      <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+        style="height: 80px; transform: translateZ(0px);">
+        <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+          version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+          <polygon class="text-gray-900 fill-current" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+      <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
+        <div class="flex flex-wrap text-center justify-center">
+        </div>
+      </div>
+    </section>
+    <section class="relative block py-24 lg:pt-0 bg-gray-900" id="contactUs">
+      <div class="container mx-auto px-4" data-aos="fade-up-right">
+        <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
+          <div class="w-full lg:w-6/12 px-4">
+            <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-red-600">
+              <div class="flex-auto p-5 lg:p-10">
+                <h4 class="text-2xl font-semibold text-gray-300">We are delighted to hear from you</h4>
+                <form name="contact" method="POST" data-netlify="true" >
+                  <div class="relative w-full mb-3 mt-8">
+                    <label class="block uppercase text-gray-200 text-xs font-bold mb-2" for="full-name">Full
+                      Name</label><input type="text"
+                      class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                      placeholder="Full Name" name="name" style="transition: all 0.15s ease 0s;" />
+                  </div>
+                  <div class="relative w-full mb-3">
+                    <label class="block uppercase text-gray-200 text-xs font-bold mb-2" for="email">Email</label><input
+                      type="email"
+                      name="email"
+                      class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                      placeholder="Email" style="transition: all 0.15s ease 0s;" />
+                  </div>
+                  <div class="relative w-full mb-3">
+                    <label class="block uppercase text-gray-200 text-xs font-bold mb-2"
+                      for="message">Message</label><textarea rows="4" cols="80"
+                      class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                      placeholder="Type a message..." name="message"></textarea>
+                  </div>
+                  <div class="text-center mt-6">
+                    <button
+                      class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+                      type="submit" style="transition: all 0.15s ease 0s;">
+                      Send Message
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="relative bg-gray-300 pt-8 pb-6">
+    <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+      style="height: 80px; transform: translateZ(0px);">
+      <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+        version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+        <polygon class="text-gray-300 fill-current" points="2560 0 2560 100 0 100"></polygon>
+      </svg>
+    </div>
+    <div class="container mx-auto px-4">
+      <div class="flex flex-wrap">
+        <!-- <div class="w-full lg:w-6/12 px-4">
+          <h4 class="text-3xl font-semibold">Let's keep in touch!</h4>
+          <h5 class="text-lg mt-0 mb-2 text-gray-700">
+            Find us on any of these platforms, we respond 1-2 business days.
+          </h5>
+          <div class="mt-6">
+            <button
+              class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+              type="button">
+              <i class="flex fab fa-twitter"></i></button><button
+              class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+              type="button">
+              <i class="flex fab fa-facebook-square"></i></button><button
+              class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+              type="button">
+              <i class="flex fab fa-dribbble"></i></button><button
+              class="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+              type="button">
+              <i class="flex fab fa-github"></i>
+            </button>
+          </div>
+        </div>
+        <div class="w-full lg:w-6/12 px-4">
+        </div> -->
+      </div>
+      <hr class="my-6 border-gray-400" />
+      <div class="flex flex-wrap items-center md:justify-between justify-center">
+        <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+          <div class="text-sm text-gray-600 font-semibold py-1">
+            Copyright © 2021 All Copyrights Reserved
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+<script>
+  function toggleNavbar(collapseID) {
+    document.getElementById(collapseID).classList.toggle("hidden");
+    document.getElementById(collapseID).classList.toggle("block");
+  }
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    delay: 200,
+    duration: 1200,
+    once: false,
+  });
+</script>
+
+</html>
